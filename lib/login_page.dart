@@ -44,15 +44,13 @@ class _LoginPageState extends State<LoginPage> {
           ],
         ),
       ),
-
- /*       FlatButton(
-              onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) =>
-                 RegistroPage()));
+    
+   /* FlatButton(onPressed: () {
+               Navigator.push(context, MaterialPageRoute(builder: (context) =>
+                RegistroPage()));
               },
-              child: Text('Registrarse'),
-            ), */
-
+              child:const Text('Registrarse'),
+            ) */
     );
   }
 }
